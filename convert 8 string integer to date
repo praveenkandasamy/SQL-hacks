@@ -1,0 +1,2 @@
+select   CONVERT(datetime, CAST(x.sk_dim_month_end_date AS CHAR(8)), 101)
+from EDW.SEM.v_fct_cover_activity_summary x
